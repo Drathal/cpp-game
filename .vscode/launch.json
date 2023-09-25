@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "namr": "Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/game",
+            "args": [],
+            "cwd": "${workspaceFolder}/build",
+            "console": "integratedTerminal",
+        },
+    ]
+}
